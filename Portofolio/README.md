@@ -14,8 +14,8 @@ Bienvenue sur le repository de mon portfolio personnel. Ce projet centralise mon
 
 | Accueil & Profil | Projets & Réalisations |
 |:---:|:---:|
-| ![Page d'accueil](./public/images/landing-page.png) | ![Page Projets](./public/images/projects-gallery.png) |
-| *Présentation générale et spécialisation Cybersécurité* | *Vue d'ensemble des projets académiques et personnels* |
+| ![Page d'accueil](./client/public/images/landing-page.png) | ![Page Projets](./client/public/images/projects-gallery.png) |
+| *Présentation générale et spécialisation Cybersécurité* | *Vue d'ensemble des projets personnels* |
 
 > *Le site est entièrement responsive et optimisé pour mobile.*
 
@@ -37,7 +37,7 @@ Ce site n'est pas une simple page statique HTML, c'est une application React com
 * **Optimisation SEO :** Utilisation des balises sémantiques et des fonctionnalités natives de Next.js.
 * **Responsive Design :** Adaptation fluide de l'interface sur desktop, tablette et mobile.
 
-## 📂 Structure du Projet (Aperçu)
+## 📂 Structure du Projet
 
 Bien que le code source complet soit dans un repository privé pour des raisons de confidentialité, voici un aperçu de l'architecture du projet :
 
@@ -65,3 +65,13 @@ Bien que le code source complet soit dans un repository privé pour des raisons 
 ├── public/                    # Assets statiques (Images, Favicon)         
 ├── next.config.ts             # Code inclus : Configuration Next.js (TypeScript)
 └── package.json               # Code inclus : Dépendances & Scripts
+
+## 📬 Contact
+
+Je suis actuellement étudiant en **Ing4 - Cybersécurité** à l'ECE Paris et suis ouvert aux opportunités.
+
+* **Email :** [gabriel.dalibert@edu.ece.fr](mailto:gabriel.dalibert@edu.ece.fr)
+* **Localisation :** Paris, France
+
+---
+*© 2026 Gabriel Dalibert - Built with Next.js & TypeScript*

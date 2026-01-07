@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Portfolio Personnel - Gabriel Dalibert
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-First, run the development server:
+Bienvenue sur le repository de mon portfolio personnel. Ce projet centralise mon parcours académique à l'ECE (École d'Ingénieurs), mes expériences professionnelles et mes projets personnels en développement et cybersécurité.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**🔗 Voir le site en ligne : [site-portofolio-gabrieldalibert.vercel.app](https://site-portofolio-gabrieldalibert.vercel.app/)**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Aperçu
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Accueil & Profil | Projets & Réalisations |
+|:---:|:---:|
+| ![Page d'accueil](./public/images/landing-page.png) | ![Page Projets](./public/images/projects-gallery.png) |
+| *Présentation générale et spécialisation Cybersécurité* | *Vue d'ensemble des projets académiques et personnels* |
 
-## Learn More
+> *Le site est entièrement responsive et optimisé pour mobile.*
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Stack Technique
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ce portfolio a été conçu avec une approche moderne, typée et performante.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Framework :** [Next.js](https://nextjs.org/) (React Framework pour la production)
+* **Langage :** [TypeScript](https://www.typescriptlang.org/) (Pour la robustesse du code)
+* **Hébergement & Déploiement :** [Vercel](https://vercel.com/) (CI/CD automatique)
+* **Styling :** Tailwind
 
-## Deploy on Vercel
+## 🚀 Fonctionnalités
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ce site n'est pas une simple page statique HTML, c'est une application React complète qui inclut :
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Navigation SPA (Single Page Application) :** Transition fluide entre les pages Expérience, Projets ECE et Projets Perso sans rechargement.
+* **Architecture Modulaire :** Séparation claire des composants (Header, Footer, Layout) pour une maintenance aisée.
+* **Optimisation SEO :** Utilisation des balises sémantiques et des fonctionnalités natives de Next.js.
+* **Responsive Design :** Adaptation fluide de l'interface sur desktop, tablette et mobile.
+
+## 📂 Structure du Projet (Aperçu)
+
+Bien que le code source complet soit dans un repository privé pour des raisons de confidentialité, voici un aperçu de l'architecture du projet :
+
+```text
+├── app/
+│   ├── components/            # Composants UI réutilisables
+│   │   ├── experiences/       # Composants de contenu spécifiques
+│   │   │   ├── EntrepriseContent.tsx
+│   │   ├── Footer.tsx         # Code inclus
+│   │   └── Header.tsx         # Code inclus
+│   ├── Experience/            # Route : /Experience
+│   │   ├── [slug]/            # Route Dynamique pour le détail des expériences
+│   │   │   └── page.tsx
+│   │   └── page.tsx           # Code inclus : Page dynamique des expériences
+│   ├── ProjetECE/             
+│   │   └── page.tsx
+│   ├── ProjetPerso/           
+│   │   ├── Plateforme/ 
+│   │   │   └── page.tsx               
+│   │   └── page.tsx
+│   ├── data.ts                # Gestion des données statiques 
+│   ├── globals.css            # Styles globaux & directives Tailwind
+│   ├── layout.tsx             # Code inclus : Squelette HTML/Body commun
+│   └── page.tsx               # Code inclus : Page d'accueil
+├── public/                    # Assets statiques (Images, Favicon)         
+├── next.config.ts             # Code inclus : Configuration Next.js (TypeScript)
+└── package.json               # Code inclus : Dépendances & Scripts

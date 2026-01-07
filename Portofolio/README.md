@@ -65,6 +65,7 @@ Bien que le code source complet soit dans un repository privé pour des raisons 
 ├── public/                    # Assets statiques (Images, Favicon)         
 ├── next.config.ts             # Code inclus : Configuration Next.js (TypeScript)
 └── package.json               # Code inclus : Dépendances & Scripts
+```
 
 ## 📬 Contact
 

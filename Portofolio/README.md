@@ -1,4 +1,4 @@
-# 👨‍💻 Portfolio Personnel - Gabriel Dalibert
+# Portfolio Personnel - Gabriel Dalibert
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -6,11 +6,11 @@
 
 Bienvenue sur le repository de mon portfolio personnel. Ce projet centralise mon parcours académique à l'ECE (École d'Ingénieurs), mes expériences professionnelles et mes projets personnels en développement et cybersécurité.
 
-**🔗 Voir le site en ligne : [site-portofolio-gabrieldalibert.vercel.app](https://site-portofolio-gabrieldalibert.vercel.app/)**
+**Voir le site en ligne : [site-portofolio-gabrieldalibert.vercel.app](https://site-portofolio-gabrieldalibert.vercel.app/)**
 
 ---
 
-## 📸 Aperçu
+## Aperçu
 
 | Accueil & Profil | Projets & Réalisations |
 |:---:|:---:|
@@ -19,7 +19,7 @@ Bienvenue sur le repository de mon portfolio personnel. Ce projet centralise mon
 
 > *Le site est entièrement responsive et optimisé pour mobile.*
 
-## 🛠 Stack Technique
+## Stack Technique
 
 Ce portfolio a été conçu avec une approche moderne, typée et performante.
 
@@ -28,7 +28,7 @@ Ce portfolio a été conçu avec une approche moderne, typée et performante.
 * **Hébergement & Déploiement :** [Vercel](https://vercel.com/) (CI/CD automatique)
 * **Styling :** Tailwind
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 Ce site n'est pas une simple page statique HTML, c'est une application React complète qui inclut :
 
@@ -37,7 +37,7 @@ Ce site n'est pas une simple page statique HTML, c'est une application React com
 * **Optimisation SEO :** Utilisation des balises sémantiques et des fonctionnalités natives de Next.js.
 * **Responsive Design :** Adaptation fluide de l'interface sur desktop, tablette et mobile.
 
-## 📂 Structure du Projet
+## Structure du Projet
 
 Bien que le code source complet soit dans un repository privé pour des raisons de confidentialité, voici un aperçu de l'architecture du projet :
 
@@ -67,7 +67,7 @@ Bien que le code source complet soit dans un repository privé pour des raisons 
 └── package.json               # Code inclus : Dépendances & Scripts
 ```
 
-## 📬 Contact
+## Contact
 
 Je suis actuellement étudiant en **Ing4 - Cybersécurité** à l'ECE Paris et suis ouvert aux opportunités.
 
